@@ -14,7 +14,8 @@ import {
 
 import TodoForm from "@/components/todo-form";
 import { type TodoSchema } from "@/lib/zod";
-import { Todo } from "@prisma/client";
+// import { Todo } from "@prisma/client";
+import type { Todo } from "@prisma/client";
 import { Pencil1Icon } from "@radix-ui/react-icons";
 
 export default function UpdateTodo({ todo }: { todo: Todo }) {

@@ -1,6 +1,7 @@
 "use client"
 
-import { Todo } from "@prisma/client";
+// import { Todo } from "@prisma/client";
+import type { Todo } from "@prisma/client";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import useSWR from "swr";
 // import { Button } from "./ui/button";
